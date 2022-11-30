@@ -196,10 +196,31 @@ main {
   font-weight: 700;
 }
 
+.login__modal {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    background-color: #00000020;
+}
+
 .wallpaper {
   width: 100%;
   background-image: url('/src/images/wallpaper.jpg');
   background-size: cover;
   background-position: center;
   flex: 1;
+}
+
+
+.modal__form {
+  display: flex;
+  background-color: var(--deep-grey);
+
 }
