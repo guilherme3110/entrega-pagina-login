@@ -40,10 +40,11 @@ function createModal() {
   emailInput.name = 'email'
   emailInput.id = 'email'
   emailInput.type = 'text'
-  emailInput.placeholder = 'Digite seu Email'
+  emailInput.placeholder = 'Digite seu email'
+  
 
-  passLabel.htmlFor = 'password'
-  passLabel.innerText = 'password'
+  passLabel.htmlFor = 'Confirmação de email'
+  passLabel.innerText = 'Confirmação de email'
   passInput.name = 'password'
   passInput.id = 'password'
   passInput.type = 'password'
@@ -51,7 +52,7 @@ function createModal() {
 
   subBtn.type = 'submit'
   subBtn.id = 'subBtn'
-  subBtn.innerText = 'Entrar'
+  subBtn.innerText = 'Enviar'
 
   form.append(title, closeBtn, emailLabel, emailInput, passLabel, passInput, subBtn)
 
